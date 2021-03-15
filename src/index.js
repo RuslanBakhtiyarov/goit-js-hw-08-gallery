@@ -2,11 +2,11 @@ import gallery from './gallery-items.js';
 //console.log(gallery);
 
 const refs = {
-    listGallery: document.querySelector('.js-gallery'),
-    modalWindow: document.querySelector('.js-lightbox'),
-    closeModalWindow: document.querySelector('[data-action="close-lightbox"]'),
-    largeImageRef: document.querySelector('.lightbox__image'),
-    closeOverModal: document.querySelector('.lightbox__overlay')
+  listGallery: document.querySelector('.js-gallery'),
+  modalWindow: document.querySelector('.js-lightbox'),
+  closeModalWindow: document.querySelector('[data-action="close-lightbox"]'),
+  largeImageRef: document.querySelector('.lightbox__image'),
+  closeOverModal: document.querySelector('.lightbox__overlay')
 };
 
 const creatListGallery = gallery.map(creatListGallerys => {
